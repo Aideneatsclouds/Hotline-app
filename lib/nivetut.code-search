@@ -1,0 +1,224 @@
+# Query: nivetut
+# ContextLines: 1
+
+64 results - 24 files
+
+README.md:
+  1: # hotline_app
+  2  
+
+android\app\build.gradle:
+  11  android {
+  12:     namespace = "com.example.hotline_app"
+  13      compileSdk = flutter.compileSdkVersion
+
+android\app\google-services.json:
+  11          "android_client_info": {
+  12:           "package_name": "com.example.hotline_app"
+  13          }
+
+android\app\src\main\kotlin\com\example\nivetut\MainActivity.kt:
+  1: package com.example.hotline_app
+  2  
+
+ios\Runner\Info.plist:
+   7  	<key>CFBundleDisplayName</key>
+   8: 	<string>hotline_app</string>
+   9  	<key>CFBundleExecutable</key>
+
+  15  	<key>CFBundleName</key>
+  16: 	<string>hotline_app</string>
+  17  	<key>CFBundlePackageType</key>
+
+ios\Runner.xcodeproj\project.pbxproj:
+  370  				);
+  371: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app;
+  372  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+  386  				MARKETING_VERSION = 1.0;
+  387: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app.RunnerTests;
+  388  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+  403  				MARKETING_VERSION = 1.0;
+  404: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app.RunnerTests;
+  405  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+  418  				MARKETING_VERSION = 1.0;
+  419: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app.RunnerTests;
+  420  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+  549  				);
+  550: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app;
+  551  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+  571  				);
+  572: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.hotline_app;
+  573  				PRODUCT_NAME = "$(TARGET_NAME)";
+
+lib\auth_page.dart:
+  2  import 'package:flutter/material.dart';
+  3: import 'package:hotline_app/login_citizen.dart';
+  4: import 'package:hotline_app/main.dart';
+  5  
+
+lib\firebase_options.dart:
+  65      storageBucket: 'auth-ca1d9.firebasestorage.app',
+  66:     iosBundleId: 'com.example.hotline_app',
+  67    );
+
+  74      storageBucket: 'auth-ca1d9.firebasestorage.app',
+  75:     iosBundleId: 'com.example.hotline_app',
+  76    );
+
+lib\login_citizen.dart:
+  2  import 'package:flutter/material.dart';
+  3: import 'package:hotline_app/MyTextField.dart';
+  4: import 'package:hotline_app/my_button.dart';
+  5: import 'package:hotline_app/sign_up_page.dart'; // Ensure you import the SignUpPage file
+  6  
+
+lib\login_police.dart:
+  1  import 'package:flutter/material.dart';
+  2: import 'package:hotline_app/MyTextField.dart';
+  3: import 'package:hotline_app/my_button.dart';
+  4  
+
+lib\main.dart:
+   7  import 'package:flutter/material.dart';
+   8: import 'package:hotline_app/auth_page.dart';
+   9: import 'package:hotline_app/firebase_options.dart';
+  10: import 'package:hotline_app/info_page.dart';
+  11: import 'package:hotline_app/police_report_page.dart';
+  12: import 'package:hotline_app/profile_page.dart';
+  13: import 'package:hotline_app/report_page.dart'; // for logging out
+  14  
+
+lib\profile_page.dart:
+  6  import 'package:logger/logger.dart';
+  7: import 'package:hotline_app/role_setup_page.dart'; // Import logger package
+  8  
+
+lib\sign_up_page.dart:
+  3  import 'package:flutter/material.dart';
+  4: import 'package:nivetut/main.dart';
+  5  
+
+linux\CMakeLists.txt:
+   6  # the on-disk name of your application.
+   7: set(BINARY_NAME "nivetut")
+   8  # The unique GTK application identifier for this application. See:
+   9  # https://wiki.gnome.org/HowDoI/ChooseApplicationID
+  10: set(APPLICATION_ID "com.example.nivetut")
+  11  
+
+linux\my_application.cc:
+  42      gtk_widget_show(GTK_WIDGET(header_bar));
+  43:     gtk_header_bar_set_title(header_bar, "nivetut");
+  44      gtk_header_bar_set_show_close_button(header_bar, TRUE);
+
+  46    } else {
+  47:     gtk_window_set_title(window, "nivetut");
+  48    }
+
+macos\Runner\Configs\AppInfo.xcconfig:
+   7  // The application's name. By default this is also the title of the Flutter window.
+   8: PRODUCT_NAME = nivetut
+   9  
+  10  // The application's bundle identifier
+  11: PRODUCT_BUNDLE_IDENTIFIER = com.example.nivetut
+  12  
+
+macos\Runner.xcodeproj\project.pbxproj:
+   66  		335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
+   67: 		33CC10ED2044A3C60003C045 /* nivetut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nivetut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+   68  		33CC10F02044A3C60003C045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+
+  133  			children = (
+  134: 				33CC10ED2044A3C60003C045 /* nivetut.app */,
+  135  				331C80D5294CF71000263BE5 /* RunnerTests.xctest */,
+
+  219  			productName = Runner;
+  220: 			productReference = 33CC10ED2044A3C60003C045 /* nivetut.app */;
+  221  			productType = "com.apple.product-type.application";
+
+  387  				MARKETING_VERSION = 1.0;
+  388: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.nivetut.RunnerTests;
+  389  				PRODUCT_NAME = "$(TARGET_NAME)";
+  390  				SWIFT_VERSION = 5.0;
+  391: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nivetut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nivetut";
+  392  			};
+
+  401  				MARKETING_VERSION = 1.0;
+  402: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.nivetut.RunnerTests;
+  403  				PRODUCT_NAME = "$(TARGET_NAME)";
+  404  				SWIFT_VERSION = 5.0;
+  405: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nivetut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nivetut";
+  406  			};
+
+  415  				MARKETING_VERSION = 1.0;
+  416: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.nivetut.RunnerTests;
+  417  				PRODUCT_NAME = "$(TARGET_NAME)";
+  418  				SWIFT_VERSION = 5.0;
+  419: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nivetut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nivetut";
+  420  			};
+
+macos\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme:
+  17                 BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+  18:                BuildableName = "nivetut.app"
+  19                 BlueprintName = "Runner"
+
+  33              BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+  34:             BuildableName = "nivetut.app"
+  35              BlueprintName = "Runner"
+
+  67              BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+  68:             BuildableName = "nivetut.app"
+  69              BlueprintName = "Runner"
+
+  84              BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+  85:             BuildableName = "nivetut.app"
+  86              BlueprintName = "Runner"
+
+test\widget_test.dart:
+  10  
+  11: import 'package:nivetut/main.dart';
+  12  
+
+web\index.html:
+  25    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  26:   <meta name="apple-mobile-web-app-title" content="nivetut">
+  27    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  31  
+  32:   <title>nivetut</title>
+  33    <link rel="manifest" href="manifest.json">
+
+web\manifest.json:
+  1  {
+  2:     "name": "nivetut",
+  3:     "short_name": "nivetut",
+  4      "start_url": ".",
+
+windows\CMakeLists.txt:
+  2  cmake_minimum_required(VERSION 3.14)
+  3: project(nivetut LANGUAGES CXX)
+  4  
+
+  6  # the on-disk name of your application.
+  7: set(BINARY_NAME "nivetut")
+  8  
+
+windows\runner\main.cpp:
+  29    Win32Window::Size size(1280, 720);
+  30:   if (!window.Create(L"nivetut", origin, size)) {
+  31      return EXIT_FAILURE;
+
+windows\runner\Runner.rc:
+  92              VALUE "CompanyName", "com.example" "\0"
+  93:             VALUE "FileDescription", "nivetut" "\0"
+  94              VALUE "FileVersion", VERSION_AS_STRING "\0"
+  95:             VALUE "InternalName", "nivetut" "\0"
+  96              VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+  97:             VALUE "OriginalFilename", "nivetut.exe" "\0"
+  98:             VALUE "ProductName", "nivetut" "\0"
+  99              VALUE "ProductVersion", VERSION_AS_STRING "\0"

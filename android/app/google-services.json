@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144881323685",
+    "project_id": "auth-ca1d9",
+    "storage_bucket": "auth-ca1d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144881323685:android:a094c6e61b7bf0c1af074c",
+        "android_client_info": {
+          "package_name": "com.example.hotline_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1hJLXyPNccyI6mP20utJR7jaNjPGMIkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
